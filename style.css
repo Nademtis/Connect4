@@ -1,0 +1,31 @@
+body {
+  background-color: #877e7e;
+  color: #8d8;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.slot {
+  width: 3em;
+  height: 3em;
+  background-color: rgb(56, 70, 65);
+  border: rgb(81, 109, 81);
+  border-style: solid;
+  border-radius: 50%;
+}
+.slotEnemy {
+  background-color: rgb(162, 32, 34);
+}
+.slotPlayer {
+  background-color: rgb(61, 56, 147);
+}
+.insertBlock {
+  width: 3em;
+  height: 1.5em;
+  background-color: rgb(43, 48, 47);
+  border: rgb(62, 55, 84);
+  border-style: solid;
+}
+.insertBlock:hover {
+  background-color: rgb(47, 54, 52);
+  cursor: pointer;
+}
